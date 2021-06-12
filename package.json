@@ -1,0 +1,20 @@
+{
+  "name": "kline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/app.js"
+  },
+  "author": "chunsenye",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "koa": "^2.13.1",
+    "mysql2": "^2.2.5",
+    "node-schedule": "^2.0.0",
+    "nodemon": "^2.0.7",
+    "sequelize": "^6.6.2"
+  }
+}
